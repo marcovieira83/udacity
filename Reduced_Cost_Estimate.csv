@@ -1,0 +1,10 @@
+service,cost,description,instance type,qty
+EC2,4526,application server,m6g.4xlarge,10
+EC2,276,web server,t2.xlarge,2
+RDS,751,database,db.t3.large,2
+ELB,33,load balancer,,
+S3,23,storage,,
+,5609,,,
+,,,,
+"I reduced the number of instances from the application server and web server, but kept the same ec2 instance type.",,,,
+Also changed the DB Instance Type to a cheaper one.,,,,

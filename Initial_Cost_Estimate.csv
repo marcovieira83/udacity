@@ -1,0 +1,6 @@
+service,cost,description,instance type,qty
+EC2,7242,application server,m6g.4xlarge,16
+EC2,553,web server,t2.xlarge,4
+RDS,1358,database,db.r5.xlarge,2
+ELB,33,load balancer,,
+S3,23,storage,,

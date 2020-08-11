@@ -1,0 +1,12 @@
+service,cost,description,instance type,qty
+EC2,13580,application server,m6g.4xlarge,30
+EC2,1107,web server,t2.xlarge,8
+RDS,3052,database,db.r5.2xlarge,3
+ELB,34,load balancer,,
+S3,92,storage,,
+,17865,,,
+,,,,
+"I added more application servers and web servers to handle the new traffic requirements, but kept the same ec2 instance type as my application can scale horizontally.",,,,
+"Also changed the DB Instance Type to stronger one, and added one read replica.",,,,
+"At last, I increased the number of requests and storage for ELB and S3, respectively.",,,,
+"In conclusion, we can see that the costs are highly concentrated on EC2 and RDS.",,,,
